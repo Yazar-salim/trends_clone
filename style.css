@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: rgb(235, 230, 230);
+}
+
+
+.header{
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center ;
+    padding: 35px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* margin-bottom: 10px; */
+}
+
+.header .navbar .nav-title{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+
+}
+
+.list ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.category{
+    display: none;
+    background-color: white;
+    width: 120px;
+    position: absolute;
+    left: 44.5%;
+    margin-top: 10px;
+    
+}
+
+.category .category-list li{
+    list-style: none;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(211, 206, 206);
+    padding: 8px;
+    
+}
+.category .category-list a{
+    text-decoration: none;
+    font-size: 16px;
+    color: gray;
+   
+}
+
+.category:hover{
+    display: block;
+    background-color: white;
+    width: 120px;
+    position: absolute;
+    left: 44.5%;
+    margin-top: 10px;
+}
+/* header ends */
+
+.hero{
+    
+    background-color:white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.hero img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+/* hero ends */
+    .video-section{
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        
+    }
+video{
+    border-radius: 10px;
+    width: 101%;
+ 
+}
+.store{
+    position: absolute;
+    top: 380px;
+    left: 30%;
+
+}
+
+.store h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.store-link{
+   background-color: white;
+   border: 1px solid gray;
+   border-radius: 10px;
+   
+   
+}
+
+.store .store-links a{
+    text-decoration: none;
+    color: gray;
+}
+
+.store .store-links{
+    
+    border-radius: 10px;
+    width: 500px;
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.store-input{
+    border: 1px solid rgb(163, 160, 160);
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+}
+.store-input input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+.store-input a{
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 80px;
+}
+
+.card{
+    
+    background-color: rgb(240, 231, 231);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column ;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cards .card img{
+    width: 280px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.card h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.card .para1{
+    font-size: 13px;
+    color: gray;
+    text-align: left;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.card .para2{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.card .para2 span{
+    color: rgb(54, 161, 233);
+}
+
+.card .direc{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    width: 250px;
+    margin-bottom: 20px;
+    color: rgb(54, 161, 233);
+
+}
+
+
+.explore{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.explore-head{
+text-align: center;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+.explore-heading{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.explore-buttons{
+    margin-bottom: 40px;
+}
+
+.explore-buttons a{
+    text-decoration: none;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: black;
+   
+}
+
+.explore-buttons a:hover{
+    background-color: gray;
+    color: aliceblue;
+}
+
+.explore-img{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.explore-img img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.brands{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.brands .brand-heading{
+    font-size: 25px;
+    padding: 30px;
+    
+}
+
+.brands img{
+    width: 100%;
+    border: none;
+}
+
+.footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+
+}
+.footer-wrapper{
+    width: 90%;
+    margin: auto;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-find h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.footer-social i{
+    background-color: gray;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links ul{
+    list-style: none;
+}
+
+.footer-link{
+    display: flex;
+    gap: 80px;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
